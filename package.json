@@ -1,14 +1,11 @@
 {
   "author": "Swapnil Dawange",
   "name": "fcc-learn-npm-package-json",
-  "homepage": "http://swapnildawange.github.io/boilerplate-npm-1",
   "dependencies": {
     "express": "^4.14.0"
   },
   "main": "server.js",
   "scripts": {
-    "predeploy": "npm run build",
-	"deploy": "gh-pages -d build",
     "start": "node server.js"
   },
   "repository": {
